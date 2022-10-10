@@ -1,0 +1,30 @@
+$std-scale-factor: 1.005;
+$std-shrink-factor: 0.995;
+$std-transition-duration: 0.2s;
+
+.std-hover {
+	@media (hover) {
+		&:hover {
+			outline: 0;
+			transition: $std-transition-duration;
+			cursor: pointer;
+		}
+	}
+
+	&--scale {
+		transition: $std-transition-duration;
+
+		&:hover {
+			transition: $std-transition-duration;
+			transform: scale($std-scale-factor);
+		}
+	}
+}
+
+.pressable {
+	transition: $std-transition-duration;
+
+	&:active {
+		transform: scale($std-shrink-factor) !important;
+	}
+}

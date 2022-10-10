@@ -1,0 +1,83 @@
+$app-min-width: 20rem;
+$app-max-width: 60rem;
+
+@import 'animations';
+@import 'font';
+@import 'scroll';
+@import 'themes';
+
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	@apply outline-white;
+}
+
+::selection {
+	background-color: var(--white) !important;
+	color: var(--black) !important;
+}
+
+img::selection {
+	background-color: var(--white) !important;
+	color: var(--black) !important;
+}
+
+html,
+body {
+	@include std-font-props;
+	font-family: 'Inter', 'system-ui', sans-serif;
+	font-size: 18px;
+	@media screen and (min-width: 30rem) {
+		font-size: 22px;
+	}
+}
+
+body {
+	@extend .fancy-scrollbar;
+	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
+		env(safe-area-inset-left);
+	height: 100%;
+	width: 100%;
+	overflow-y: auto;
+}
+
+main,
+.dialog {
+	min-width: $app-min-width !important;
+	max-width: $app-max-width !important;
+}
+
+svg,
+img {
+	width: 1.5rem;
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	@apply list-none;
+	line-height: 1.5;
+	li::before {
+		content: '・';
+	}
+}
+
+.box-shadow-drop {
+	transform: translate(0.25rem, -0.25rem);
+	box-shadow: -0.25rem 0.25rem 0 var(--white);
+}
+
+.card {
+	@apply border-1 border-solid rounded-lg bg-primary md:max-w-25rem w-full h-min;
+	@extend .std-hover;
+	@extend .pressable;
+	border-color: rgba(255, 255, 255, 0.3);
+	&:hover {
+		-webkit-backdrop-filter: blur(1rem);
+		backdrop-filter: blur(1rem);
+		box-shadow: 0 4px 16px 0 rgba(100, 100, 100, 0.5);
+	}
+}

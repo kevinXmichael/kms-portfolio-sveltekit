@@ -1,0 +1,23 @@
+.fancy-scrollbar {
+	$size: 0.25rem;
+	$foreground-color: var(--gray);
+	$background-color: var(--black);
+
+	&::-webkit-scrollbar {
+		width: $size;
+		height: $size;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $foreground-color;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: $background-color;
+	}
+
+	@media only screen and (min-width: $app-max-width) {
+		// We set this to safe space / fix the width on desktop to avoid jumpy elements
+		overflow-y: auto;
+	}
+}

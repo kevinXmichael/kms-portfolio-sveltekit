@@ -1,0 +1,56 @@
+$fw-regular: 400;
+$fw-bold: 700;
+
+@mixin std-font-props {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+
+	line-height: 1.15rem;
+	@apply text-white;
+}
+
+h1 {
+	line-height: 1.75rem;
+	font-size: var(--2xl) !important;
+	font-weight: $fw-bold;
+}
+
+h2 {
+	font-size: var(--xl) !important;
+	font-weight: $fw-bold;
+}
+
+.link {
+	color: var(--white) !important;
+
+	&:hover {
+		text-decoration: underline !important;
+	}
+}
+
+a {
+	// @apply no-underline;
+	color: unset;
+
+	&:hover {
+		// text-decoration: unset;
+	}
+}
+
+address {
+	font-style: normal;
+}
+
+.text-hover {
+	&:hover {
+		@apply font-bold text-white;
+	}
+}
+
+.text-cut {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
