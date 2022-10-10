@@ -1,6 +1,7 @@
 {
 	"name": "kms-portfolio-sveltekit",
-	"version": "0.0.1",
+	"author": "Kevin Michael Schott",
+	"version": "0.0.2",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",

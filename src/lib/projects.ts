@@ -80,8 +80,8 @@ export const projects: Item[] = [
 				background: '#f05138'
 			},
 			{
-				text: 'Capacitor',
-				background: '#53b9ff'
+				text: 'Prisma',
+				background: '#1c1c1c'
 			},
 			{
 				text: 'Consulting',
@@ -97,7 +97,7 @@ export const projects: Item[] = [
 		body: 'The <a class="underline" href="https://evoluon.com/" target="_blank">Evoluon</a> building is unique due to its very futuristic design, it mostly puts people in mind of a UFO having landed in Eindhoven. Today, Evoluon is a place for events and congresses.',
 		tags: [
 			{
-				text: 'Alpine.js',
+				text: 'Alpine',
 				background: '#77c1d2'
 			},
 			{
@@ -118,7 +118,7 @@ export const projects: Item[] = [
 		body: 'The <a class="underline" href="https://www.nextnature.net/" target="_blank">Next Nature Network</a> is a nature organization that wants to go forward to nature. They create events, exhibitions, publications and products that bring biology and technology into balance.',
 		tags: [
 			{
-				text: 'Alpine.js',
+				text: 'Alpine',
 				background: '#77c1d2'
 			},
 			{
@@ -226,7 +226,7 @@ export const projects: Item[] = [
 		body: 'Focusing on building modern tools for content creators to help them monetizing their content. The vision is to raise public awareness of the subject of social media as a profession.',
 		tags: [
 			{
-				text: 'Vue.js',
+				text: 'Vue',
 				background: '#42b883'
 			},
 			{
@@ -248,8 +248,8 @@ export const projects: Item[] = [
 		body: 'A mobile app to create a modern linkpage in the fastest way possible. The heart of this app is to provide meaningful analytics for the creators.',
 		tags: [
 			{
-				text: 'Capacitor',
-				background: '#53b9ff'
+				text: 'Vue',
+				background: '#42b883'
 			},
 			{
 				text: 'Firebase',
@@ -270,12 +270,13 @@ export const projects: Item[] = [
 		body: 'When influencers need a way to sell their digital goods, sellby is the best choise. You can easily build a custom page and add your products for selling like a one-stop online shop.',
 		tags: [
 			{
-				text: 'Vue.js',
+				text: 'Vue',
 				background: '#42b883'
 			},
 			{
-				text: 'GCloud',
-				background: '#1a73e8'
+				text: 'Firebase',
+				color: '#000000',
+				background: '#ffcc32'
 			},
 			{
 				text: 'Python',
