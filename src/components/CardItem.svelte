@@ -5,7 +5,7 @@
 	$: bodyText = showBody ? item.body : item.body.split(' ').slice(0, 16).join(' ') + '...'
 </script>
 
-<div class={`${$$props.class ?? ''} card`}>
+<div class={`${$$props.class ?? ''} card`} on:click={() => (showBody = !showBody)}>
 	<section class="p-md flex flex-row flex-nowrap items-center">
 		<img
 			src={item.img}
@@ -20,7 +20,7 @@
 		style="background-color: rgba(255, 255, 255, 0.2); min-height: 1px;"
 	/>
 	<section class="h-full p-md pt-0 flex flex-col">
-		<span on:click={() => (showBody = true)} class="pt-md">{@html bodyText}</span>
+		<span class="pt-md">{@html bodyText}</span>
 		<div class="grow" />
 		<div class="flex flex-row flex-nowrap w-full pt-md">
 			{#each item.tags as tag}
