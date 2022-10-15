@@ -39,7 +39,7 @@ export const kms: Item = {
 		},
 		{
 			text: 'CV',
-			href: '/CV.pdf',
+			href: 'https://docs.google.com/document/d/15JC_NMOb_GQZ5FgFvD4WKoNmPGMkSJTL_bwCGskuu9I',
 			color: '#000000',
 			background: '#fff500'
 		}
@@ -93,7 +93,7 @@ export const projects: Item[] = [
 		imgRounded: false,
 		img: 'img/logos/evoluon.svg',
 		alt: 'evoluon',
-		headline: 'The most iconic location in Eindhoven',
+		headline: 'The most iconic location',
 		body: 'The <a class="underline" href="https://evoluon.com/" target="_blank">Evoluon</a> building is unique due to its very futuristic design, it mostly puts people in mind of a UFO having landed in Eindhoven. Today, Evoluon is a place for events and congresses.',
 		tags: [
 			{
