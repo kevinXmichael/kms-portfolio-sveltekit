@@ -19,7 +19,7 @@ export const kms: Item = {
 	img: 'favicon.png',
 	alt: 'Kevin Michael Schott',
 	headline: 'Kevin Michael Schott',
-	body: 'As a Software Engineer & IT Consultant with more than 8 years of professional experience, my work is agile and remote by nature. I offer web and mobile app development, consulting and agile coaching with modern frameworks. If you think we can work together, feel free to send me an email.',
+	body: 'Software Developer & IT Consultant with more than 8 years of professional experience in web and mobile app development. My work is agile and remote by nature. If you think we can work together, feel free to send me an <a href="mailto:kevin@kms695.de">email</a>.',
 	tags: [
 		{
 			text: 'GitHub',
@@ -98,15 +98,17 @@ export const projects: Item[] = [
 		tags: [
 			{
 				text: 'Alpine',
+				color: '#000000',
 				background: '#77c1d2'
-			},
-			{
-				text: 'Laravel',
-				background: '#ff2d20'
 			},
 			{
 				text: 'KirbyCMS',
 				background: '#1c1c1c'
+			},
+			{
+				text: 'Tailwind',
+				color: '#000000',
+				background: '#38BDF8'
 			}
 		]
 	},
@@ -119,6 +121,7 @@ export const projects: Item[] = [
 		tags: [
 			{
 				text: 'Alpine',
+				color: '#000000',
 				background: '#77c1d2'
 			},
 			{
@@ -126,8 +129,9 @@ export const projects: Item[] = [
 				background: '#ff2d20'
 			},
 			{
-				text: 'KirbyCMS',
-				background: '#1c1c1c'
+				text: 'Tailwind',
+				color: '#000000',
+				background: '#38BDF8'
 			}
 		]
 	},
@@ -145,6 +149,7 @@ export const projects: Item[] = [
 			},
 			{
 				text: 'Svelte',
+
 				background: '#ff3e00'
 			},
 			{
@@ -186,9 +191,9 @@ export const projects: Item[] = [
 				background: '#f05138'
 			},
 			{
-				text: 'NFC',
+				text: 'Firebase',
 				color: '#000000',
-				background: '#d6d3e8'
+				background: '#ffcc32'
 			},
 			{
 				text: 'Consulting',
