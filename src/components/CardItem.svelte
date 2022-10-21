@@ -25,12 +25,16 @@
 		<div class="flex flex-row flex-nowrap w-full pt-md">
 			{#each item.tags as tag}
 				<div
-					class="mr-sm px-sm py-xs rounded-md"
+					class={tag.img ? 'mr-md' : 'mr-sm rounded-md px-sm py-xs'}
 					style={`color: ${tag.color ?? '#ffffff'} !important; background-color: ${tag.background}`}
 				>
 					{#if tag.href}
 						<a href={tag.href} target="_blank" class="no-underline">
-							{tag.text}
+							{#if tag.img}
+								<img src={tag.img} alt={tag.text} class="w-1.5rem h-1.5rem" />
+							{:else}
+								{tag.text}
+							{/if}
 						</a>
 					{:else}
 						<div class="lowercase">#{tag.text}</div>

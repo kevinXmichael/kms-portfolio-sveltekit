@@ -12,6 +12,7 @@ export interface Tag {
 	href?: string
 	color?: string
 	background?: string
+	img?: string
 }
 
 export const kms: Item = {
@@ -19,29 +20,22 @@ export const kms: Item = {
 	img: 'favicon.png',
 	alt: 'Kevin Michael Schott',
 	headline: 'Kevin Michael Schott',
-	body: 'Software Developer & IT Consultant with more than 8 years of professional experience in web and mobile app development. My work is agile and remote by nature. If you think we can work together, feel free to send me an <a href="mailto:kevin@kms695.de">email</a>.',
+	body: 'Software Developer & IT Consultant with more than 8 years of professional experience in web and mobile app development. My work is agile and remote by nature. If you think we can work together, feel free to send me an <a href="mailto:kevin@kms695.de">email</a> and check out my <a href="https://docs.google.com/document/d/15JC_NMOb_GQZ5FgFvD4WKoNmPGMkSJTL_bwCGskuu9I" target="_blank">CV</a>.',
 	tags: [
 		{
 			text: 'GitHub',
 			href: 'https://github.com/kevinXmichael',
-			background: '#1c1c1c'
+			img: 'img/socials/github.svg'
 		},
 		{
 			text: 'LinkedIn',
 			href: 'https://www.linkedin.com/in/kmschott',
-			background: '#0a66c2'
+			img: 'img/socials/linkedin.svg'
 		},
 		{
-			text: 'Email',
-			href: 'mailto:kevin@kms695.de',
-			color: '#000000',
-			background: '#ffffff'
-		},
-		{
-			text: 'CV',
-			href: 'https://docs.google.com/document/d/15JC_NMOb_GQZ5FgFvD4WKoNmPGMkSJTL_bwCGskuu9I',
-			color: '#000000',
-			background: '#fff500'
+			text: 'Telegram',
+			href: 'https://t.me/kms695',
+			img: 'img/socials/telegram.svg'
 		}
 	]
 }
