@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Item } from '@/lib/projects'
 	export let item: Item
-	let showBody = false
+	export let showBody = false
 	$: bodyText = showBody ? item.body : item.body.split(' ').slice(0, 16).join(' ') + '...'
 </script>
 
@@ -10,7 +10,7 @@
 		<img
 			src={item.img}
 			alt={item.alt}
-			class={`${item.imgRounded && 'rounded-full'} max-h-5rem max-w-5rem w-full`}
+			class={`${item.imgRounded && 'rounded-full'} max-h-4rem max-w-4rem w-full`}
 		/>
 		<h1 class="ml-md">{item.headline}</h1>
 	</section>

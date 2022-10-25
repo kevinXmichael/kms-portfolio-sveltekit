@@ -4,7 +4,7 @@
 </script>
 
 <section class="flex flex-col items-center justify-center">
-	<CardItem item={kms} />
+	<CardItem item={kms} showBody />
 	<h1 class="mt-xl <lg:mb-sm mb-lg">Projects I worked on 🧑‍💻</h1>
 	<section class="<md:mt-4 grid <lg:grid-cols-1 <xl:grid-cols-2 grid-cols-3 gap-4">
 		{#each projects as project}
@@ -12,10 +12,3 @@
 		{/each}
 	</section>
 </section>
-<footer class="mt-lg w-full flex flex-col items-center justify-center">
-	<a href="/legal" class="mt-md no-underline">
-		<span>{`© ${new Date().getFullYear()} kms695`}</span>
-		・
-		<span class="underline">Imprint / GDPR</span>
-	</a>
-</footer>

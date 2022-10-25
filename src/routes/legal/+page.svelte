@@ -2,14 +2,18 @@
 	<address tabindex="0">
 		<h1 tabindex="0">Imprint</h1>
 		<br />
+		<p>According to § 5 TMG</p>
+		<br />
 		<p class="text-left" tabindex="0">
 			🏠&nbsp; Kevin Michael Schott (kms695), Mühlenstraße 19, 39104 Magdeburg
 		</p>
 		<br />
-		<p>📨&nbsp; <a class="link" href="mailto:hello@kms695.de">hello@kms695.de</a></p>
+		<p>📲&nbsp; <a class="no-underline" href="tel:039150548231">0391 50548231</a></p>
+		<br />
+		<p>📨&nbsp; <a class="no-underline" href="mailto:hello@kms695.de">hello@kms695.de</a></p>
 		<br />
 		<p>
-			🌐&nbsp; <a class="link" href="https://kms695.de" target="_blank">www.kms695.de</a>
+			🌐&nbsp; <a class="no-underline" href="https://kms695.de" target="_blank">www.kms695.de</a>
 		</p>
 	</address>
 	<br />
