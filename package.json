@@ -1,7 +1,7 @@
 {
 	"name": "kms-portfolio-sveltekit",
 	"author": "Kevin Michael Schott",
-	"version": "0.0.35",
+	"version": "0.0.36",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -28,5 +28,8 @@
 		"vite-plugin-windicss": "^1.8.8",
 		"windicss": "^3.5.6"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@vercel/analytics": "^0.1.1"
+	}
 }
