@@ -28,14 +28,24 @@ export const kms: Item = {
 			img: 'img/socials/github.svg'
 		},
 		{
-			text: 'LinkedIn',
-			href: 'https://www.linkedin.com/in/kmschott',
-			img: 'img/socials/linkedin.svg'
+			text: 'Stackoverflow',
+			href: 'https://stackoverflow.com/users/10863535/kevin-michael-schott',
+			img: 'img/socials/stackoverflow.svg'
 		},
 		{
 			text: 'Telegram',
 			href: 'https://t.me/kms695',
 			img: 'img/socials/telegram.svg'
+		},
+		{
+			text: 'LinkedIn',
+			href: 'https://www.linkedin.com/in/kmschott',
+			img: 'img/socials/linkedin.svg'
+		},
+		{
+			text: 'XING',
+			href: 'https://www.xing.com/profile/KevinMichael_Schott',
+			img: 'img/socials/xing.svg'
 		}
 	]
 }
