@@ -2,7 +2,8 @@
 	import type { Item } from '@/lib/projects'
 	export let item: Item
 	export let showBody = false
-	$: bodyText = showBody ? item.body : item.body.split(' ').slice(0, 16).join(' ') + '...'
+	// $: bodyText = showBody ? item.body : item.body.split(' ').slice(0, 16).join(' ') + '...'
+	$: bodyText = item.body
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
