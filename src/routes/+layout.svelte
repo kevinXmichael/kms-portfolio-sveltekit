@@ -7,7 +7,7 @@
 
 	const copyright = `© ${new Date().getFullYear()} kms695`
 	let tabActive = true
-	$: isLegalRoute = ($page?.routeId ?? '').includes('legal')
+	$: isLegalRoute = ($page?.route?.id ?? '').includes('legal')
 
 	if (browser) {
 		document.addEventListener('visibilitychange', () => (tabActive = !document.hidden))
