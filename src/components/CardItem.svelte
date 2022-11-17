@@ -5,12 +5,13 @@
 	$: bodyText = showBody ? item.body : item.body.split(' ').slice(0, 16).join(' ') + '...'
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class={`${$$props.class ?? ''} card`} on:click={() => (showBody = !showBody)}>
 	<section class="p-md flex flex-row flex-nowrap items-center">
 		<img
 			src={item.img}
 			alt={item.alt}
-			class={`${item.imgRounded && 'rounded-full'} max-h-4rem max-w-4rem w-full`}
+			class={`${item.imgRounded && 'rounded-xl'} max-h-4rem max-w-4rem w-full`}
 		/>
 		<h1 class="ml-md">{item.headline}</h1>
 	</section>
@@ -29,7 +30,7 @@
 					style={`color: ${tag.color ?? '#ffffff'} !important; background-color: ${tag.background}`}
 				>
 					{#if tag.href}
-						<a href={tag.href} target="_blank" class="no-underline">
+						<a href={tag.href} target="_blank" class="no-underline" rel="noreferrer">
 							{#if tag.img}
 								<img src={tag.img} alt={tag.text} class="w-1.5rem h-1.5rem" />
 							{:else}

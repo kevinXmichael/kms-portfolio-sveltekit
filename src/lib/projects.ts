@@ -52,6 +52,28 @@ export const kms: Item = {
 
 export const projects: Item[] = [
 	{
+		imgRounded: true,
+		img: 'img/logos/swipe.png',
+		alt: 'swipe',
+		headline: 'SWIPE the movie',
+		body: 'With a highly experimental design, the Swipe app presents the evolution of design patterns in mobile apps as an interactive movie.',
+		tags: [
+			{
+				text: 'Swift',
+				background: '#f05138'
+			},
+			{
+				text: 'Kotlin',
+				background: '#6854DB'
+			},
+			{
+				text: 'Flutter',
+				color: '#000000',
+				background: '#54C5F8'
+			}
+		]
+	},
+	{
 		imgRounded: false,
 		img: 'img/logos/intervisionsportal.svg',
 		alt: 'intervisionsportal',
