@@ -1,5 +1,3 @@
-import { inject } from '@vercel/analytics'
-
 function doHTMLvoodoo(): boolean {
 	// window.addEventListener('resize', setInnerViewport)
 
@@ -28,5 +26,5 @@ function doHTMLvoodoo(): boolean {
 // }
 
 export default async function boot() {
-	return await Promise.allSettled([doHTMLvoodoo(), inject()])
+	return await Promise.allSettled([doHTMLvoodoo()])
 }

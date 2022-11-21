@@ -2,8 +2,6 @@
 	import type { Item } from '@/lib/projects'
 	export let item: Item
 	export let showBody = false
-	// $: bodyText = showBody ? item.body : item.body.split(' ').slice(0, 16).join(' ') + '...'
-	$: bodyText = item.body
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -14,7 +12,12 @@
 			alt={item.alt}
 			class={`${item.imgRounded && 'rounded-xl'} max-h-4rem max-w-4rem w-full`}
 		/>
-		<h1 class="ml-md">{item.headline}</h1>
+		<div>
+			<h1 class="ml-md">{item.headline}</h1>
+			<!-- {#if item.subheadline}
+			 <p class="ml-md pt-sm">{item.subheadline}</p>
+		{/if} -->
+		</div>
 	</section>
 	<div
 		id="divider"
@@ -22,7 +25,7 @@
 		style="background-color: rgba(255, 255, 255, 0.2); min-height: 1px;"
 	/>
 	<section class="h-full p-md pt-0 flex flex-col">
-		<span class="pt-md">{@html bodyText}</span>
+		<span class="pt-md">{@html item.body}</span>
 		<div class="grow" />
 		<div class="flex flex-row flex-nowrap w-full pt-md">
 			{#each item.tags as tag}

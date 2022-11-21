@@ -65,19 +65,18 @@ ul {
 	}
 }
 
-.box-shadow-drop {
-	transform: translate(0.25rem, -0.25rem);
-	box-shadow: -0.25rem 0.25rem 0 var(--white);
-}
-
-.card {
-	@apply border-1 border-solid rounded-lg bg-primary md:max-w-25rem w-full h-min;
+.glowing-hover {
 	@extend .std-hover;
 	@extend .pressable;
-	border-color: rgba(255, 255, 255, 0.3);
 	&:hover {
 		-webkit-backdrop-filter: blur(1rem);
 		backdrop-filter: blur(1rem);
 		box-shadow: 0 4px 16px 0 rgba(100, 100, 100, 0.5);
 	}
+}
+
+.card {
+	@apply border-1 border-solid rounded-lg bg-primary md:max-w-24rem w-full h-min;
+	@extend .glowing-hover;
+	border-color: rgba(255, 255, 255, 0.3);
 }

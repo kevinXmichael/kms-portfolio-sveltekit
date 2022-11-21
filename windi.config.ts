@@ -3,10 +3,10 @@ module.exports = {
 	theme: {
 		extend: {},
 		fontSize: {
-			'3xl': 'var(--3xl)',
-			'2xl': 'var(--2xl)',
-			xl: 'var(--xl)',
-			xs: 'var(--xs)'
+			// '3xl': 'var(--3xl)',
+			// '2xl': 'var(--2xl)',
+			// xl: 'var(--xl)',
+			// xs: 'var(--xs)'
 		},
 		screens: {
 			sm: '640px',
