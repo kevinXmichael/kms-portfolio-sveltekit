@@ -2,6 +2,7 @@
 	import type { Item } from '@/lib/projects'
 	export let item: Item
 	export let showBody = false
+	export let h1 = false
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -13,10 +14,11 @@
 			class={`${item.imgRounded && 'rounded-xl'} max-h-4rem max-w-4rem w-full`}
 		/>
 		<div>
-			<h1 class="ml-md">{item.headline}</h1>
-			<!-- {#if item.subheadline}
-			 <p class="ml-md pt-sm">{item.subheadline}</p>
-		{/if} -->
+			{#if h1}
+				<h1 class="ml-md">{item.headline}</h1>
+			{:else}
+				<h2 class="ml-md">{item.headline}</h2>
+			{/if}
 		</div>
 	</section>
 	<div

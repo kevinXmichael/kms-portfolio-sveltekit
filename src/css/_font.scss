@@ -11,15 +11,10 @@ $fw-bold: 700;
 	@apply text-white;
 }
 
-h1 {
+h1,
+h2 {
 	line-height: 1.6rem;
 	font-size: 1.5rem !important;
-	font-weight: $fw-bold;
-}
-
-h2 {
-	line-height: 1.35rem;
-	font-size: 1.25rem !important;
 	font-weight: $fw-bold;
 }
 

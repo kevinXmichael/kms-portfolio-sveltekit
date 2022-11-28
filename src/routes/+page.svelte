@@ -4,8 +4,8 @@
 </script>
 
 <section class="flex flex-col items-center justify-center">
-	<CardItem item={kms} showBody />
-	<h1 class="mt-xl <lg:mb-md mb-lg text-center">Technologies I love 🛠️</h1>
+	<CardItem item={kms} showBody h1 />
+	<h2 class="mt-xl <lg:mb-md mb-lg text-center">Technologies I love 🛠️</h2>
 	<section class="<md:mt-4 grid <md:grid-cols-3 grid-cols-4 gap-4">
 		{#each ALL_TECHNOLOGIES as tech}
 			<div
@@ -16,7 +16,7 @@
 			</div>
 		{/each}
 	</section>
-	<h1 class="mt-xl <lg:mb-md mb-lg text-center">Projects I worked on 🎮</h1>
+	<h2 class="mt-xl <lg:mb-md mb-lg text-center">Projects I worked on 🎮</h2>
 	<section class="<md:mt-4 grid <lg:grid-cols-1 <xl:grid-cols-2 grid-cols-3 gap-4">
 		{#each projects as project}
 			<CardItem item={project} />
