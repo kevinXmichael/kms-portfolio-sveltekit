@@ -97,6 +97,11 @@ export const Laravel = {
 	background: '#ff2d20'
 }
 
+export const Intertia = {
+	text: 'Intertia',
+	background: '#6E72ED'
+}
+
 export const NextJS = {
 	text: 'Next.js',
 	background: '#000000'
@@ -141,7 +146,7 @@ export const Python = {
 
 export const kms: Item = {
 	imgRounded: true,
-	img: 'favicon.png',
+	img: 'favicon.jpg',
 	alt: 'Kevin Michael Schott',
 	headline: 'Kevin Michael Schott',
 	subheadline: 'Freelance Software Developer',
@@ -285,6 +290,7 @@ export const ALL_TECHNOLOGIES: Technology[] = [
 	TypeScript,
 	Vue,
 	Laravel,
+	Intertia,
 	Tailwind,
 	Prisma,
 	NextJS,
