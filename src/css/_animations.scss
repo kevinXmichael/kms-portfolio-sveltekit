@@ -28,3 +28,16 @@ $std-transition-duration: 0.2s;
 		transform: scale($std-shrink-factor) !important;
 	}
 }
+
+.opacity-fadein {
+	animation: opacity-fadein 1s ease-in-out;
+}
+
+@keyframes opacity-fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}

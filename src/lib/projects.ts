@@ -297,4 +297,4 @@ export const ALL_TECHNOLOGIES: Technology[] = [
 	Python,
 	Alpine,
 	Firebase
-].sort(() => 0.5 - Math.random())
+]
