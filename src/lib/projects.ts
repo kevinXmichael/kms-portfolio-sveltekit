@@ -38,6 +38,17 @@ export const Kotlin = {
 	background: '#6854DB'
 }
 
+export const Java = {
+	text: 'Java',
+	color: '#000000',
+	background: '#f89917'
+}
+
+export const Spring = {
+	text: 'Spring',
+	background: '#6CB52D'
+}
+
 export const Flutter = {
 	text: 'Flutter',
 	color: '#000000',
@@ -90,6 +101,11 @@ export const Tailwind = {
 	text: 'Tailwind',
 	color: '#000000',
 	background: '#38BDF8'
+}
+
+export const PHP = {
+	text: 'PHP',
+	background: '#7A86B8'
 }
 
 export const Laravel = {
@@ -150,8 +166,8 @@ export const kms: Item = {
 	alt: 'Kevin Michael Schott',
 	headline: 'Kevin Michael Schott',
 	subheadline: 'Freelance Software Developer',
-	body: `<p class="pb-xs">📱&nbsp; Android and iOS Developer</p>
-			<p class="pb-xs">🎨&nbsp; Frontend Web Developer</p>
+	body: `<p class="pb-xs">📱&nbsp; Mobile App Developer</p>
+			<p class="pb-xs">🍭&nbsp; Web Developer</p>
 			<p class="pb-xs">👨🏼‍💻&nbsp; 8+ years of experience in IT</p>
 			<p>🚀&nbsp; <a href="mailto:kevin@kms695.de?subject=Want to work with you&body=Hey Kevin, I found your website and think we can work together. Also added you on LinkedIn, let's talk there.">Hire me</a> and check out my <a href="https://docs.google.com/document/d/15JC_NMOb_GQZ5FgFvD4WKoNmPGMkSJTL_bwCGskuu9I" target="_blank" rel="noreferrer">CV</a></p>`,
 	tags: [
@@ -285,10 +301,13 @@ export const projects: Item[] = [
 export const ALL_TECHNOLOGIES: Technology[] = [
 	Swift,
 	Kotlin,
+	Java,
+	Spring,
 	Flutter,
 	Svelte,
 	TypeScript,
 	Vue,
+	PHP,
 	Laravel,
 	Intertia,
 	Tailwind,

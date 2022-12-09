@@ -28,7 +28,7 @@ img::selection {
 html,
 body {
 	@include std-font-props;
-	font-family: 'Inter', 'system-ui', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 18px;
 	@media screen and (min-width: 30rem) {
 		font-size: 22px;

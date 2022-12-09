@@ -6,7 +6,6 @@ $fw-bold: 700;
 	-webkit-margin-after: 0;
 	margin-block-start: 0;
 	margin-block-end: 0;
-
 	line-height: 1.15rem;
 	@apply text-white;
 }
@@ -27,12 +26,7 @@ h2 {
 }
 
 a {
-	// @apply no-underline;
 	color: unset;
-
-	&:hover {
-		// text-decoration: unset;
-	}
 }
 
 address {
