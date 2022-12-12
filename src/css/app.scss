@@ -61,6 +61,7 @@ img {
 ul {
 	@apply list-none;
 	line-height: 1.5;
+
 	li::before {
 		content: '・';
 	}
@@ -69,6 +70,7 @@ ul {
 .glowing-hover {
 	@extend .std-hover;
 	@extend .pressable;
+
 	&:hover {
 		-webkit-backdrop-filter: blur(1rem);
 		backdrop-filter: blur(1rem);

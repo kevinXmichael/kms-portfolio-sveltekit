@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Item } from '@/lib/projects'
+
 	export let item: Item
 	export let showBody = false
 	export let h1 = false

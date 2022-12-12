@@ -113,8 +113,8 @@ export const Laravel = {
 	background: '#ff2d20'
 }
 
-export const Intertia = {
-	text: 'Intertia',
+export const Inertia = {
+	text: 'Inertia',
 	background: '#6E72ED'
 }
 
@@ -166,10 +166,11 @@ export const kms: Item = {
 	alt: 'Kevin Michael Schott',
 	headline: 'Kevin Michael Schott',
 	subheadline: 'Freelance Software Developer',
-	body: `<p class="pb-xs">📱&nbsp; Mobile App Developer</p>
-			<p class="pb-xs">🍭&nbsp; Web Developer</p>
-			<p class="pb-xs">👨🏼‍💻&nbsp; 8+ years of experience in IT</p>
-			<p>🚀&nbsp; <a href="mailto:kevin@kms695.de?subject=Want to work with you&body=Hey Kevin, I found your website and think we can work together. Also added you on LinkedIn, let's talk there.">Hire me</a> and check out my <a href="https://docs.google.com/document/d/15JC_NMOb_GQZ5FgFvD4WKoNmPGMkSJTL_bwCGskuu9I" target="_blank" rel="noreferrer">CV</a></p>`,
+	body: `<p class="pb-xs">🍭&nbsp; Web Developer</p>
+			<p class="pb-xs">📱&nbsp; Mobile App Developer</p>
+			<p class="pb-xs">🚀&nbsp; 8+ years of experience in IT</p>
+			<p class="pb-xs">💻&nbsp; Remote work only</p>
+			<p>👨🏼‍💻&nbsp; <a href="mailto:kevin@kms695.de?subject=Want to work with you&body=Hey Kevin, I found your website and think we can work together. Also added you on LinkedIn, let's talk there.">Hire me</a> and check out my <a href="https://docs.google.com/document/d/15JC_NMOb_GQZ5FgFvD4WKoNmPGMkSJTL_bwCGskuu9I" target="_blank" rel="noreferrer">CV</a></p>`,
 	tags: [
 		{
 			text: 'GitHub',
@@ -309,7 +310,7 @@ export const ALL_TECHNOLOGIES: Technology[] = [
 	Vue,
 	PHP,
 	Laravel,
-	Intertia,
+	Inertia,
 	Tailwind,
 	Prisma,
 	NextJS,
