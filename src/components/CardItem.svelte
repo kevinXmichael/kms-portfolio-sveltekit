@@ -10,9 +10,9 @@
 <div class={`${$$props.class ?? ''} card`} on:click={() => (showBody = !showBody)}>
 	<section class="p-md flex flex-row flex-nowrap items-center">
 		<img
-			src={item.img}
 			alt={item.alt}
 			class={`${item.imgRounded && 'rounded-xl'} max-h-4rem max-w-4rem w-full`}
+			src={item.img}
 		/>
 		<div>
 			{#if h1}
@@ -23,8 +23,8 @@
 		</div>
 	</section>
 	<div
-		id="divider"
 		class="w-full"
+		id="divider"
 		style="background-color: rgba(255, 255, 255, 0.2); min-height: 1px;"
 	/>
 	<section class="h-full p-md pt-0 flex flex-col">
